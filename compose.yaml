@@ -1,1 +1,12 @@
+version: "3.8"
+
 services:
+  # used to validate email delivery
+  mailhog:
+      image: mailhog/mailhog
+      container_name: 'mailhog'
+      ports:
+        - "1025:1025"
+        - "8025:8025"
+
+     

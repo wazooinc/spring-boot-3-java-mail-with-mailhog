@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "notification.host_port",
+    "type": "java.lang.String",
+    "description": "A description for 'notification.host_port'"
+  },
+  {
+    "name": "notification.host_name",
+    "type": "java.lang.String",
+    "description": "A description for 'notification.host_name'"
+  }
+]}
